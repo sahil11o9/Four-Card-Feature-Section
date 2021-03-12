@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary:#ddd;
+    --shadow1:0 10px 13px 23px #0a090944;
+    --shadow2:0 1px 25px rgba(8, 8, 8, 0.698);
+}
+section .background{
+    background-size: cover;
+}
+.background{
+    background: url(../themes_illustration_minimalist.jpg);
+    z-index: -1;
+    margin-top: -44rem;
+    padding-top: 41.5rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.whitebox{
+    font:20px/1.5 Arial ;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0;
+    margin: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: var(--primary);
+    box-shadow:var(--shadow1);
+}
+.upperline,.boldline,.lowerline{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.lowerline{
+    font-size: 1.3rem;
+}
+.box1,.box2,.box3,.box4{
+    background: whitesmoke;
+    /* box-shadow: var(--shadow2); */
+    padding: 1.7rem;
+    padding-top: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+section .mid{
+    display: inline-block;
+    margin-bottom: -10rem;
+    margin-top: -5rem;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    border-top:5px solid red;
+    width: 25%;
+    align-self: center;
+    /* margin-bottom: 3rem; */
+    box-shadow: 0 8px 20px -3px rgba(0, 0, 0, 0.623);
+    margin-top: 2.8rem;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid cyan;
+    float: left;
+    box-shadow: 0 8px 20px -3px rgba(0, 0, 0, 0.623);
+    width: 25%;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+.box3{
+    /* margin-top: 4rem; */
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid rgb(32, 32, 219);
+    width: 25%;
+    margin-bottom: 3rem;
+    margin-left: 52.5rem;
+    align-items: flex-end;
+    box-shadow: 0 8px 20px -3px rgba(0, 0, 0, 0.623);
+}
+.box4{
+    display: inline-flex;
+    flex-direction: column;
+    border-top: 5px solid rgb(255, 208, 0);
+    width: 25%;
+    align-self: center;
+    box-shadow: 0 8px 20px -3px rgba(0, 0, 0, 0.623);
+    margin-bottom: 6rem;
+}
+.upperpart{
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.upperpart h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: gray;
+}
+.upperpart p{
+    font-weight: 100;
+    font-size: 1rem;
+    color: grey;
+}
+.lowerpart{
+    display: flex;
+    flex-direction: row-reverse;
+}
